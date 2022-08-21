@@ -23,55 +23,68 @@ export const Sidebar = () => {
       <hr />
       <div className="center">
         <ul>
+          <p className="title">MAIN</p>
           <li>
-            <Dashboard />
+            <Dashboard className="icon" />
             <span>Dashboard</span>
           </li>
+          <p className="title">LISTS</p>
+
           <li>
-            <PersonOutline />
+            <PersonOutline className="icon" />
             <span>Users</span>
           </li>
           <li>
-            <Store />
+            <Store className="icon" />
             <span>Products</span>
           </li>
           <li>
-            <CreditCard />
+            <CreditCard className="icon" />
             <span>Orders</span>
           </li>
           <li>
-            <LocalShipping />
+            <LocalShipping className="icon" />
             <span>Delivery</span>
           </li>
+          <p className="title">USEFUL</p>
+
           <li>
-            <InsertChart />
+            <InsertChart className="icon" />
             <span>Stats</span>
           </li>
           <li>
-            <NotificationsNone />
+            <NotificationsNone className="icon" />
             <span>Notifications</span>
           </li>
+          <p className="title">SERVICE</p>
+
           <li>
-            <SettingsSystemDaydreamOutlined />
+            <SettingsSystemDaydreamOutlined className="icon" />
             <span>System Health</span>
           </li>
           <li>
-            <PsychologyIcon />
+            <PsychologyIcon className="icon" />
             <span>Logs</span>
           </li>
           <li>
-            <SettingsApplications />
+            <SettingsApplications className="icon" />
             <span>Settings</span>
           </li>
+          <p className="title">USER </p>
+
           <li>
-            <AccountCircleOutlined />
+            <AccountCircleOutlined className="icon" />
             <span>Profile</span>
           </li>
           <li>
-            <ExitToApp />
+            <ExitToApp className="icon" />
             <span>Logout</span>
           </li>
         </ul>
+      </div>
+      <div className="bottom">
+        <div className="colorOptions"></div>
+        <div className="colorOptions"></div>
       </div>
     </div>
   );
